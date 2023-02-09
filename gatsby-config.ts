@@ -17,6 +17,7 @@ const config: GatsbyConfig = {
   },
   trailingSlash: `never`,
   plugins: [
+    `gatsby-plugin-sitemap`,
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
