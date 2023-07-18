@@ -34,8 +34,33 @@ body {
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 20%;
 }
 
+
+.sub-section li {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #990000;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    margin: 1rem;
+}
+
+.sub-section li span {
+    color: #000;
+    font-weight: normal;
+}
+
+#connect-image {
+    margin: 1rem 1rem;
+    width: 15%;
+}
+
+.visibility-ss {
+    visibility: hidden;
+}
 
 /* Light theme */
 .light-theme {
@@ -48,8 +73,7 @@ img {
 }
 
 .light-theme .navbar-toggler {
-    padding-right: 1rem;
-    padding-top: 1rem;
+    padding: 1rem;
 
 }
 
@@ -118,12 +142,6 @@ img {
     width: 40%;
 }
 
-.card-btn {
-    width: 40%;
-    margin: 1rem;
-    align-self: center;
-}
-
 .section-btn {
 
     min-width: 20%;
@@ -152,6 +170,10 @@ img {
 .card {
     margin: 0 1rem;
     min-height: 50vh;
+}
+
+.card p {
+    padding: 1rem;
 }
 
 h3 {
@@ -284,4 +306,11 @@ footer a {
         margin: 1rem 0;
 
     }
+
+    .visibility-ss {
+        display: none;
+        visibility: visible;
+
+    }
+
 }
