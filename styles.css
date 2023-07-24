@@ -169,7 +169,8 @@ img {
 
 .card {
     margin: 0 1rem;
-    min-height: 50vh;
+    height: 50vh;
+    width: 33%;
 }
 
 .card p {
@@ -186,6 +187,7 @@ h3 {
 
 h5 {
     margin: 1rem 0;
+    color: #990000;
 }
 
 footer {
@@ -304,6 +306,7 @@ footer a {
 
     .card {
         margin: 1rem 0;
+        width: 100%;
 
     }
 
